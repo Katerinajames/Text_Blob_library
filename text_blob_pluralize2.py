@@ -1,10 +1,7 @@
 
 from textblob import TextBlob
-
 blob = TextBlob("bag ,star ,car,ox,foot,goose, likes")
-x=blob.words 
-
-for i in x:
+for i in blob.words :
 	print (i.pluralize(),end=" ")
 
 
